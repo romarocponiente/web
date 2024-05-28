@@ -5,11 +5,11 @@ document.addEventListener('DOMContentLoaded', () => {
             {
                 name: 'Bioestimulante AMINOROC',
                 price: '$20.00',
-                imageUrl: 'c:/xampp/htdocs/img/aminoroc.png',
+                imageUrl: 'aminoroc.png',
                 shortDescription: 'Bioestimulante vegetal concentrado.',
                 longDescription: [
-                    'c:/xampp/htdocs/img/foto1aminoroc.png', 
-                    'c:/xampp/htdocs/img/foto2aminoroc.png'
+                    'foto1aminoroc.png', 
+                    'foto2aminoroc.png'
                 ]
             },
             {
@@ -18,8 +18,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 imageUrl: 'c:/xampp/htdocs/img/mikuat.png',
                 shortDescription: 'Bioestimulante natural.',
                 longDescription: [
-                    'c:/xampp/htdocs/img/mikuatf1.png', 
-                    'c:/xampp/htdocs/img/mikuatf2.png'
+                    'mikuatf1.png', 
+                    'mikuatf2.png'
                 ]
             },
 
@@ -28,11 +28,11 @@ document.addEventListener('DOMContentLoaded', () => {
 {
                 name: 'Bioestimulante Gorden',
                 price: '$25.00',
-                imageUrl: 'c:/xampp/htdocs/img/gorden.png',
+                imageUrl: 'gorden.png',
                 shortDescription: 'Bioestimulante natural.',
                 longDescription: [
-                    'c:/xampp/htdocs/img/gordenf1.png', 
-                    'c:/xampp/htdocs/img/gordenf2.png'
+                    'gordenf1.png', 
+                    'gordenf2.png'
                 ]
             },
 
@@ -40,11 +40,11 @@ document.addEventListener('DOMContentLoaded', () => {
 {
                 name: 'Bioestimulante Multigra',
                 price: '$25.00',
-                imageUrl: 'c:/xampp/htdocs/img/multigra.png',
+                imageUrl: 'multigra.png',
                 shortDescription: 'Bioestimulante natural.',
                 longDescription: [
-                    'c:/xampp/htdocs/img/multigraf1.png', 
-                    'c:/xampp/htdocs/img/multigraf2.png'
+                    'multigraf1.png', 
+                    'multigraf2.png'
                 ]
             },
 
@@ -53,11 +53,11 @@ document.addEventListener('DOMContentLoaded', () => {
 {
                 name: 'Bioestimulante Rizactiv',
                 price: '$25.00',
-                imageUrl: 'c:/xampp/htdocs/img/rizactiv.png',
+                imageUrl: 'rizactiv.png',
                 shortDescription: 'Bioestimulante natural.',
                 longDescription: [
-                    'c:/xampp/htdocs/img/rizactivf1.png', 
-                    'c:/xampp/htdocs/img/rizactivf2.png'
+                    'rizactivf1.png', 
+                    'rizactivf2.png'
                 ]
             },
 
@@ -66,11 +66,11 @@ document.addEventListener('DOMContentLoaded', () => {
 {
                 name: 'Bioestimulante Stimax',
                 price: '$25.00',
-                imageUrl: 'c:/xampp/htdocs/img/stimax.png',
+                imageUrl: 'stimax.png',
                 shortDescription: 'Bioestimulante natural.',
                 longDescription: [
-                    'c:/xampp/htdocs/img/stimaxf1.png', 
-                    'c:/xampp/htdocs/img/stimaxf2.png'
+                    'stimaxf1.png', 
+                    'stimaxf2.png'
                 ]
             },
 
@@ -80,11 +80,11 @@ document.addEventListener('DOMContentLoaded', () => {
 {
                 name: 'Bioestimulante Turbocal',
                 price: '$25.00',
-                imageUrl: 'c:/xampp/htdocs/img/turbocal.png',
+                imageUrl: 'turbocal.png',
                 shortDescription: 'Bioestimulante natural.',
                 longDescription: [
-                    'c:/xampp/htdocs/img/turbocalf1.png', 
-                    'c:/xampp/htdocs/img/turbocalf2.png'
+                    'turbocalf1.png', 
+                    'turbocalf2.png'
                 ]
             }
 
@@ -97,11 +97,11 @@ document.addEventListener('DOMContentLoaded', () => {
             {
                 name: 'Mejorador de suelo Terroc',
                 price: '$30.00',
-                imageUrl: 'c:/xampp/htdocs/img/terroc.png',
+                imageUrl: 'terroc.png',
                 shortDescription: 'Mejorador de suelo orgánico.',
                 longDescription: [
-                    'c:/xampp/htdocs/img/terrocf1.png', 
-                    'c:/xampp/htdocs/img/terrocf2.png'
+                    'terrocf1.png', 
+                    'terrocf2.png'
                 ]
             },
 
@@ -109,11 +109,11 @@ document.addEventListener('DOMContentLoaded', () => {
 {
                 name: 'Mejorador de suelo Agro bass',
                 price: '$30.00',
-                imageUrl: 'c:/xampp/htdocs/img/agrobass.png',
+                imageUrl: 'agrobass.png',
                 shortDescription: 'Mejorador de suelo orgánico.',
                 longDescription: [
-                    'c:/xampp/htdocs/img/agrobassf1.png', 
-                    'c:/xampp/htdocs/img/agrobassf2.png'
+                    'agrobassf1.png', 
+                    'agrobassf2.png'
                 ]
             },
 
@@ -122,11 +122,11 @@ document.addEventListener('DOMContentLoaded', () => {
             {
                 name: 'Mejorador de suelo Humirroc',
                 price: '$30.00',
-                imageUrl: 'c:/xampp/htdocs/img/humirroc.png',
+                imageUrl: 'humirroc.png',
                 shortDescription: 'Mejorador de suelo orgánico.',
                 longDescription: [
-                    'c:/xampp/htdocs/img/humirrocf1.png', 
-                    'c:/xampp/htdocs/img/humirrocf2.png'
+                    'humirrocf1.png', 
+                    'humirrocf2.png'
                 ]
             }
 
@@ -140,11 +140,11 @@ document.addEventListener('DOMContentLoaded', () => {
             {
                 name: 'Corrector de Carencias Flor Go',
                 price: '$15.00',
-                imageUrl: 'c:/xampp/htdocs/img/florgo.png',
+                imageUrl: 'florgo.png',
                 shortDescription: 'Corrector de carencias para macro y micronutrientes.',
                 longDescription: [
-                    'c:/xampp/htdocs/img/florgof1.png', 
-                    'c:/xampp/htdocs/img/florgof2.png'
+                    'florgof1.png', 
+                    'florgof2.png'
                 ]
             },
 
@@ -153,11 +153,11 @@ document.addEventListener('DOMContentLoaded', () => {
 {
                 name: 'Corrector de Carencias Carvi 35',
                 price: '$15.00',
-                imageUrl: 'c:/xampp/htdocs/img/carvi35.png',
+                imageUrl: 'carvi35.png',
                 shortDescription: 'Corrector de carencias para macro y micronutrientes.',
                 longDescription: [
-                    'c:/xampp/htdocs/img/carvi35f1.png', 
-                    'c:/xampp/htdocs/img/carvi35f2.png'
+                    'carvi35f1.png', 
+                    'carvi35f2.png'
                 ]
             },
 
@@ -166,11 +166,11 @@ document.addEventListener('DOMContentLoaded', () => {
 {
                 name: 'Corrector de Carencias Microroc',
                 price: '$15.00',
-                imageUrl: 'c:/xampp/htdocs/img/microroc.png',
+                imageUrl: 'microroc.png',
                 shortDescription: 'Corrector de carencias para macro y micronutrientes.',
                 longDescription: [
-                    'c:/xampp/htdocs/img/microrocf1.png', 
-                    'c:/xampp/htdocs/img/microrocf2.png'
+                    'microrocf1.png', 
+                    'microrocf2.png'
                 ]
             },
 
@@ -178,11 +178,11 @@ document.addEventListener('DOMContentLoaded', () => {
 {
                 name: 'Corrector de Carencias Boromac',
                 price: '$15.00',
-                imageUrl: 'c:/xampp/htdocs/img/boromac.png',
+                imageUrl: 'boromac.png',
                 shortDescription: 'Corrector de carencias para macro y micronutrientes.',
                 longDescription: [
-                    'c:/xampp/htdocs/img/boromacf1.png', 
-                    'c:/xampp/htdocs/img/boromacf2.png'
+                    'boromacf1.png', 
+                    'boromacf2.png'
                 ]
             },
 
@@ -191,11 +191,11 @@ document.addEventListener('DOMContentLoaded', () => {
 {
                 name: 'Corrector de Carencias Calroc 14',
                 price: '$15.00',
-                imageUrl: 'c:/xampp/htdocs/img/calroc14.png',
+                imageUrl: 'calroc14.png',
                 shortDescription: 'Corrector de carencias para macro y micronutrientes.',
                 longDescription: [
-                    'c:/xampp/htdocs/img/calroc14f1.png', 
-                    'c:/xampp/htdocs/img/calroc14f2.png'
+                    'calroc14f1.png', 
+                    'calroc14f2.png'
                 ]
             },
 
@@ -203,11 +203,11 @@ document.addEventListener('DOMContentLoaded', () => {
 {
                 name: 'Corrector de Carencias Ferromac',
                 price: '$15.00',
-                imageUrl: 'c:/xampp/htdocs/img/ferromac.png',
+                imageUrl: 'ferromac.png',
                 shortDescription: 'Corrector de carencias para macro y micronutrientes.',
                 longDescription: [
-                    'c:/xampp/htdocs/img/ferromacf1.png', 
-                    'c:/xampp/htdocs/img/ferromacf2.png'
+                    'ferromacf1.png', 
+                    'ferromacf2.png'
                 ]
             },
 
@@ -215,11 +215,11 @@ document.addEventListener('DOMContentLoaded', () => {
 {
                 name: 'Corrector de Carencias Florive',
                 price: '$15.00',
-                imageUrl: 'c:/xampp/htdocs/img/florive.png',
+                imageUrl: 'florive.png',
                 shortDescription: 'Corrector de carencias para macro y micronutrientes.',
                 longDescription: [
-                    'c:/xampp/htdocs/img/florivef1.png', 
-                    'c:/xampp/htdocs/img/florivef2.png'
+                    'florivef1.png', 
+                    'florivef2.png'
                 ]
             },
 
@@ -229,11 +229,11 @@ document.addEventListener('DOMContentLoaded', () => {
 {
                 name: 'Corrector de Carencias Greenest',
                 price: '$15.00',
-                imageUrl: 'c:/xampp/htdocs/img/greenest.png',
+                imageUrl: 'greenest.png',
                 shortDescription: 'Corrector de carencias para macro y micronutrientes.',
                 longDescription: [
-                    'c:/xampp/htdocs/img/greenestf1.png', 
-                    'c:/xampp/htdocs/img/greenestf2.png'
+                    'greenestf1.png', 
+                    'greenestf2.png'
                 ]
             },
 
@@ -241,11 +241,11 @@ document.addEventListener('DOMContentLoaded', () => {
 {
                 name: 'Corrector de Carencias Zincrop',
                 price: '$15.00',
-                imageUrl: 'c:/xampp/htdocs/img/zincrop.png',
+                imageUrl: 'zincrop.png',
                 shortDescription: 'Corrector de carencias para macro y micronutrientes.',
                 longDescription: [
-                    'c:/xampp/htdocs/img/zincropf1.png', 
-                    'c:/xampp/htdocs/img/zincropf2.png'
+                    'zincropf1.png', 
+                    'zincropf2.png'
                 ]
             }
 
@@ -260,11 +260,11 @@ document.addEventListener('DOMContentLoaded', () => {
             {
                 name: 'Nutrición Especial Amipro',
                 price: '$40.00',
-                imageUrl: 'c:/xampp/htdocs/img/amipro.png',
+                imageUrl: 'amipro.png',
                 shortDescription: 'Fertilizante de nutrición especial.',
                 longDescription: [
-                    'c:/xampp/htdocs/img/amiprof1.png', 
-                    'c:/xampp/htdocs/img/amiprof2.png'
+                    'amiprof1.png', 
+                    'amiprof2.png'
                 ]
             },
 
@@ -273,11 +273,11 @@ document.addEventListener('DOMContentLoaded', () => {
  {
                 name: 'Nutrición Especial Silika20',
                 price: '$40.00',
-                imageUrl: 'c:/xampp/htdocs/img/silika20.png',
+                imageUrl: 'silika20.png',
                 shortDescription: 'Fertilizante de nutrición especial.',
                 longDescription: [
-                    'c:/xampp/htdocs/img/silika20f1.png', 
-                    'c:/xampp/htdocs/img/silika20f2.png'
+                    'silika20f1.png', 
+                    'silika20f2.png'
                 ]
             }
 
@@ -293,11 +293,11 @@ document.addEventListener('DOMContentLoaded', () => {
             {
                 name: 'Acondicionador de Agua Phositone',
                 price: '$10.00',
-                imageUrl: 'c:/xampp/htdocs/img/phositone.png',
+                imageUrl: 'phositone.png',
                 shortDescription: 'Acondicionador de agua para riego.',
                 longDescription: [
-                    'c:/xampp/htdocs/img/phositonef1.png', 
-                    'c:/xampp/htdocs/img/phositonef2.png'
+                    'phositonef1.png', 
+                    'phositonef2.png'
                 ]
             }
         ],
@@ -305,11 +305,11 @@ document.addEventListener('DOMContentLoaded', () => {
             {
                 name: 'Acondicionador de Suelo Disal',
                 price: '$35.00',
-                imageUrl: 'c:/xampp/htdocs/img/disal.png',
+                imageUrl: 'disal.png',
                 shortDescription: 'Acondicionador de suelo para mejorar la estructura.',
                 longDescription: [
-                    'c:/xampp/htdocs/img/disalf1.png', 
-                    'c:/xampp/htdocs/img/disalf2.png'
+                    'disalf1.png', 
+                    'disalf2.png'
                 ]
             }
         ]
