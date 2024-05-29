@@ -48,10 +48,10 @@ nav ul li a {
     border: 1px solid #ccc;
     padding: 10px;
     margin: 10px;
-    width: 100%;
-    max-width: 200px;
+    width: calc(33.333% - 20px);
     text-align: center;
     background-color: #fff;
+    box-sizing: border-box;
 }
 
 .product-item img {
@@ -70,7 +70,7 @@ nav ul li a {
 /* Media Queries */
 @media (max-width: 768px) {
     .product-item {
-        max-width: 100%;
+        width: 100%;
     }
 
     .logo {

@@ -22,10 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     'mikuatf2.png'
                 ]
             },
-
-
-
-{
+            {
                 name: 'Bioestimulante Gorden',
                 price: '$25.00',
                 imageUrl: 'gorden.png',
@@ -35,9 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     'gordenf2.png'
                 ]
             },
-
-
-{
+            {
                 name: 'Bioestimulante Multigra',
                 price: '$25.00',
                 imageUrl: 'multigra.png',
@@ -47,10 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     'multigraf2.png'
                 ]
             },
-
-
-
-{
+            {
                 name: 'Bioestimulante Rizactiv',
                 price: '$25.00',
                 imageUrl: 'rizactiv.png',
@@ -60,10 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     'rizactivf2.png'
                 ]
             },
-
-
-
-{
+            {
                 name: 'Bioestimulante Stimax',
                 price: '$25.00',
                 imageUrl: 'stimax.png',
@@ -73,11 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     'stimaxf2.png'
                 ]
             },
-
-
-
-
-{
+            {
                 name: 'Bioestimulante Turbocal',
                 price: '$25.00',
                 imageUrl: 'turbocal.png',
@@ -87,11 +72,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     'turbocalf2.png'
                 ]
             }
-
-
-
-
-
         ],
         'mejoradores-de-suelo': [
             {
@@ -104,9 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     'terrocf2.png'
                 ]
             },
-
-
-{
+            {
                 name: 'Mejorador de suelo Agro bass',
                 price: '$30.00',
                 imageUrl: 'agrobass.png',
@@ -116,9 +94,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     'agrobassf2.png'
                 ]
             },
-
-
-
             {
                 name: 'Mejorador de suelo Humirroc',
                 price: '$30.00',
@@ -129,12 +104,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     'humirrocf2.png'
                 ]
             }
-
-
-
-
-
-
         ],
         'correctores-carencias': [
             {
@@ -147,10 +116,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     'florgof2.png'
                 ]
             },
-
-
-
-{
+            {
                 name: 'Corrector de Carencias Carvi 35',
                 price: '$15.00',
                 imageUrl: 'carvi35.png',
@@ -160,10 +126,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     'carvi35f2.png'
                 ]
             },
-
-
-
-{
+            {
                 name: 'Corrector de Carencias Microroc',
                 price: '$15.00',
                 imageUrl: 'microroc.png',
@@ -173,9 +136,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     'microrocf2.png'
                 ]
             },
-
-
-{
+            {
                 name: 'Corrector de Carencias Boromac',
                 price: '$15.00',
                 imageUrl: 'boromac.png',
@@ -185,10 +146,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     'boromacf2.png'
                 ]
             },
-
-
-
-{
+            {
                 name: 'Corrector de Carencias Calroc 14',
                 price: '$15.00',
                 imageUrl: 'calroc14.png',
@@ -198,9 +156,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     'calroc14f2.png'
                 ]
             },
-
-
-{
+            {
                 name: 'Corrector de Carencias Ferromac',
                 price: '$15.00',
                 imageUrl: 'ferromac.png',
@@ -210,9 +166,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     'ferromacf2.png'
                 ]
             },
-
-
-{
+            {
                 name: 'Corrector de Carencias Florive',
                 price: '$15.00',
                 imageUrl: 'florive.png',
@@ -222,11 +176,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     'florivef2.png'
                 ]
             },
-
-
-
-
-{
+            {
                 name: 'Corrector de Carencias Greenest',
                 price: '$15.00',
                 imageUrl: 'greenest.png',
@@ -236,9 +186,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     'greenestf2.png'
                 ]
             },
-
-
-{
+            {
                 name: 'Corrector de Carencias Zincrop',
                 price: '$15.00',
                 imageUrl: 'zincrop.png',
@@ -248,13 +196,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     'zincropf2.png'
                 ]
             }
-
-
-
-
-
-
-
         ],
         'nutricion-especial': [
             {
@@ -267,10 +208,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     'amiprof2.png'
                 ]
             },
-
-
-
- {
+            {
                 name: 'Nutrición Especial Silika20',
                 price: '$40.00',
                 imageUrl: 'silika20.png',
@@ -280,14 +218,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     'silika20f2.png'
                 ]
             }
-
-
-
-
-
-
-
-
         ],
         'acondicionadores-agua': [
             {
@@ -338,15 +268,4 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="product-details">
                     <h2>${product.name}</h2>
                     <p><strong>Precio:</strong> ${product.price}</p>
-                    ${product.longDescription.map(imgUrl => `<img src="${imgUrl}" alt="${product.name} detail">`).join('')}
-                </div>
-            `;
-
-            productContainer.appendChild(productItem);
-        });
-    } else {
-        productContainer.innerHTML = '<p>No hay productos disponibles en esta categoría.</p>';
-    }
-});
-
-
+                    ${product.longDescription.map(imgUrl => `<img src
