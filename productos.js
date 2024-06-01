@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
             {
                 name: 'Bioestimulante Mikuat',
                 price: '$25.00',
-                imageUrl: 'c:/xampp/htdocs/img/mikuat.png',
+                imageUrl: 'mikuat.png',
                 shortDescription: 'Bioestimulante natural.',
                 longDescription: [
                     'mikuatf1.png', 
