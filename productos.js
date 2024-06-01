@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
         bioestimulantes: [
             {
                 name: 'Bioestimulante AMINOROC',
-                price: '$20.00',
+                price: 'Consultar',
                 imageUrl: 'aminoroc.png',
                 shortDescription: 'Bioestimulante vegetal concentrado.',
                 longDescription: [
@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 name: 'Bioestimulante Mikuat',
-                price: '$25.00',
+                price: 'Consultar',
                 imageUrl: 'mikuat.png',
                 shortDescription: 'Bioestimulante natural.',
                 longDescription: [
@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 {
                 name: 'Bioestimulante Gorden',
-                price: '$25.00',
+                price: 'Consultar',
                 imageUrl: 'gorden.png',
                 shortDescription: 'Bioestimulante natural.',
                 longDescription: [
@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 {
                 name: 'Bioestimulante Multigra',
-                price: '$25.00',
+                price: 'Consultar',
                 imageUrl: 'multigra.png',
                 shortDescription: 'Bioestimulante natural.',
                 longDescription: [
@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 {
                 name: 'Bioestimulante Rizactiv',
-                price: '$25.00',
+                price: 'Consultar',
                 imageUrl: 'rizactiv.png',
                 shortDescription: 'Bioestimulante natural.',
                 longDescription: [
@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 {
                 name: 'Bioestimulante Stimax',
-                price: '$25.00',
+                price: 'Consultar',
                 imageUrl: 'stimax.png',
                 shortDescription: 'Bioestimulante natural.',
                 longDescription: [
@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 {
                 name: 'Bioestimulante Turbocal',
-                price: '$25.00',
+                price: 'Consultar',
                 imageUrl: 'turbocal.png',
                 shortDescription: 'Bioestimulante natural.',
                 longDescription: [
@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'mejoradores-de-suelo': [
             {
                 name: 'Mejorador de suelo Terroc',
-                price: '$30.00',
+                price: 'Consultar',
                 imageUrl: 'terroc.png',
                 shortDescription: 'Mejorador de suelo orgánico.',
                 longDescription: [
@@ -108,7 +108,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 {
                 name: 'Mejorador de suelo Agro bass',
-                price: '$30.00',
+                price: 'Consultar',
                 imageUrl: 'agrobass.png',
                 shortDescription: 'Mejorador de suelo orgánico.',
                 longDescription: [
@@ -121,7 +121,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             {
                 name: 'Mejorador de suelo Humirroc',
-                price: '$30.00',
+                price: 'Consultar',
                 imageUrl: 'humirroc.png',
                 shortDescription: 'Mejorador de suelo orgánico.',
                 longDescription: [
@@ -139,7 +139,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'correctores-carencias': [
             {
                 name: 'Corrector de Carencias Flor Go',
-                price: '$15.00',
+                price: 'Consultar',
                 imageUrl: 'florgo.png',
                 shortDescription: 'Corrector de carencias para macro y micronutrientes.',
                 longDescription: [
@@ -152,7 +152,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 {
                 name: 'Corrector de Carencias Carvi 35',
-                price: '$15.00',
+                price: 'Consultar',
                 imageUrl: 'carvi35.png',
                 shortDescription: 'Corrector de carencias para macro y micronutrientes.',
                 longDescription: [
@@ -165,7 +165,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 {
                 name: 'Corrector de Carencias Microroc',
-                price: '$15.00',
+                price: 'Consultar',
                 imageUrl: 'microroc.png',
                 shortDescription: 'Corrector de carencias para macro y micronutrientes.',
                 longDescription: [
@@ -177,7 +177,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 {
                 name: 'Corrector de Carencias Boromac',
-                price: '$15.00',
+                price: 'Consultar',
                 imageUrl: 'boromac.png',
                 shortDescription: 'Corrector de carencias para macro y micronutrientes.',
                 longDescription: [
@@ -190,7 +190,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 {
                 name: 'Corrector de Carencias Calroc 14',
-                price: '$15.00',
+                price: 'Consultar',
                 imageUrl: 'calroc14.png',
                 shortDescription: 'Corrector de carencias para macro y micronutrientes.',
                 longDescription: [
@@ -202,7 +202,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 {
                 name: 'Corrector de Carencias Ferromac',
-                price: '$15.00',
+                price: 'Consultar',
                 imageUrl: 'ferromac.png',
                 shortDescription: 'Corrector de carencias para macro y micronutrientes.',
                 longDescription: [
@@ -214,7 +214,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 {
                 name: 'Corrector de Carencias Florive',
-                price: '$15.00',
+                price: 'Consultar',
                 imageUrl: 'florive.png',
                 shortDescription: 'Corrector de carencias para macro y micronutrientes.',
                 longDescription: [
@@ -228,7 +228,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 {
                 name: 'Corrector de Carencias Greenest',
-                price: '$15.00',
+                price: 'Consultar',
                 imageUrl: 'greenest.png',
                 shortDescription: 'Corrector de carencias para macro y micronutrientes.',
                 longDescription: [
@@ -240,7 +240,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 {
                 name: 'Corrector de Carencias Zincrop',
-                price: '$15.00',
+                price: 'Consultar',
                 imageUrl: 'zincrop.png',
                 shortDescription: 'Corrector de carencias para macro y micronutrientes.',
                 longDescription: [
@@ -259,7 +259,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'nutricion-especial': [
             {
                 name: 'Nutrición Especial Amipro',
-                price: '$40.00',
+                price: 'Consultar',
                 imageUrl: 'amipro.png',
                 shortDescription: 'Fertilizante de nutrición especial.',
                 longDescription: [
@@ -272,7 +272,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
  {
                 name: 'Nutrición Especial Silika20',
-                price: '$40.00',
+                price: 'Consultar',
                 imageUrl: 'silika20.png',
                 shortDescription: 'Fertilizante de nutrición especial.',
                 longDescription: [
@@ -292,7 +292,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'acondicionadores-agua': [
             {
                 name: 'Acondicionador de Agua Phositone',
-                price: '$10.00',
+                price: 'Consultar',
                 imageUrl: 'phositone.png',
                 shortDescription: 'Acondicionador de agua para riego.',
                 longDescription: [
@@ -304,7 +304,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'acondicionadores-suelo': [
             {
                 name: 'Acondicionador de Suelo Disal',
-                price: '$35.00',
+                price: 'Consultar',
                 imageUrl: 'disal.png',
                 shortDescription: 'Acondicionador de suelo para mejorar la estructura.',
                 longDescription: [
