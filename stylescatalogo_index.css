@@ -152,5 +152,28 @@ footer {
 }
 
 
- 
+ /* Estilos responsivos */
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+    }
+
+    .product-container {
+        align-items: center;
+    }
+
+    .product-item {
+        width: 90%; /* Ajustar el tamaño del producto para dispositivos móviles */
+    }
+
+    .product-details {
+        position: static;
+        width: 100%; /* Ajustar el tamaño de los detalles del producto para dispositivos móviles */
+        margin-top: 20px;
+    }
+
+    .product-item:hover .product-details {
+        display: block; /* Mostrar detalles del producto en dispositivos móviles */
+    }
+}
 
