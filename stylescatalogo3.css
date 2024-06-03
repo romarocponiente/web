@@ -1,130 +1,158 @@
 
-/* Reusing styles from stylescatalogo_index.css and adding any specific adjustments if needed */
-body {
-    font-family: Arial, sans-serif;
+
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-}
-
-header {
-    text-align: center;
-    background-color: #f8f8f8;
-    padding: 10px 0;
-}
-
-.logo-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.logo {
-    max-width: 100px;
-    height: auto;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-nav ul li {
-    margin: 0 15px;
-}
-
-nav ul li a {
-    text-decoration: none;
+    background-color: #f0f0f0;
     color: #333;
 }
 
-nav ul li a:hover, nav ul li a.active {
-    color: #007BFF;
-}
-
-.content-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 20px;
-}
-
-.side-image {
-    flex: 1 1 100%;
+header {
+    background-color: #2e7d32;
+    color: white;
     text-align: center;
+    padding: 1.5em 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+header nav ul li a.active {
+    border: 2px solid red;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.product-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.product-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    width: 150px; /* Tamaño más pequeño */
+    position: relative;
     margin-bottom: 20px;
 }
 
-.side-image img {
-    max-width: 80%;
+.product-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.product-item img {
+    max-width: 100%;
     height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+    border-radius: 10px;
 }
 
-.main-content {
-    flex: 3 1 100%;
-    text-align: center;
+.product-item h2 {
+    font-size: 1em; /* Texto más pequeño */
+    margin: 15px 0;
+    color: #2e7d32;
 }
 
-.product-images {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.product-item p {
+    color: #666;
+    margin: 10px 0;
+    font-size: 0.8em; /* Texto más pequeño */
 }
 
-.product-images a {
-    margin: 10px;
-    text-align: center;
-}
-
-.product-images img {
-    max-width: 150px;
-    height: auto;
-    border: 2px solid transparent;
-    transition: all 0.3s ease;
-}
-
-.product-images img:hover {
-    border: 2px solid red;
-}
-
-.category-name {
-    margin-top: 5px;
-    padding: 5px;
-    background-color: #007BFF;
-    color: white;
-    display: inline-block;
-    border-radius: 5px;
-}
-
-footer {
-    background-color: #FF4500;
-    color: white;
-    text-align: center;
+.product-details {
+    position: absolute;
+    top: 0;
+    left: 170px; /* Ajuste para el tamaño del producto */
+    width: 700px; /* Tamaño más grande */
+    background-color: rgba(255, 255, 255, 0.95);
     padding: 20px;
-    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: none;
+    z-index: 1;
 }
 
-.contact-info {
-    background-color: green;
-    padding: 10px;
-    display: inline-block;
-    border-radius: 5px;
+.product-item:hover .product-details {
+    display: block;
 }
 
-@media (min-width: 768px) {
-    .content-wrapper {
-        flex-direction: row;
+.product-details h2 {
+    font-size: 1.2em; /* Texto más grande */
+    margin-bottom: 10px;
+    color: #2e7d32;
+}
+
+.product-details p {
+    font-size: 1em; /* Texto más grande */
+    color: #555;
+}
+
+.product-details img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
     }
-    .side-image {
-        flex: 1;
-        text-align: left;
-        margin-right: 20px;
-        margin-bottom: 0;
+
+    .product-container {
+        align-items: center;
     }
-    .main-content {
-        flex: 3;
+
+    .product-item {
+        width: 90%; /* Ajustar el tamaño del producto para dispositivos móviles */
+    }
+
+    .product-details {
+        position: static;
+        width: 100%; /* Ajustar el tamaño de los detalles del producto para dispositivos móviles */
+        margin-top: 20px;
+    }
+
+    .product-item:hover .product-details {
+        display: block; /* Mostrar detalles del producto en dispositivos móviles */
     }
 }
-  
